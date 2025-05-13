@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/nikitasinkha.github.io/static/css/main.33521431.css",
-    "main.js": "/nikitasinkha.github.io/static/js/main.8df42d37.js",
+    "main.js": "/nikitasinkha.github.io/static/js/main.6c9cd8c6.js",
     "static/js/453.1407b060.chunk.js": "/nikitasinkha.github.io/static/js/453.1407b060.chunk.js",
     "static/media/chetan.jpeg": "/nikitasinkha.github.io/static/media/chetan.3598f634fd6352b4e47a.jpeg",
     "index.html": "/nikitasinkha.github.io/index.html",
     "main.33521431.css.map": "/nikitasinkha.github.io/static/css/main.33521431.css.map",
-    "main.8df42d37.js.map": "/nikitasinkha.github.io/static/js/main.8df42d37.js.map",
+    "main.6c9cd8c6.js.map": "/nikitasinkha.github.io/static/js/main.6c9cd8c6.js.map",
     "453.1407b060.chunk.js.map": "/nikitasinkha.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33521431.css",
-    "static/js/main.8df42d37.js"
+    "static/js/main.6c9cd8c6.js"
   ]
 }
