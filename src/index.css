@@ -1,0 +1,11 @@
+html, body, .App, #root {
+  height: 100%;
+}
+
+html {
+  font-size: 57.25%;
+}
+
+body {
+  margin: 0;
+}

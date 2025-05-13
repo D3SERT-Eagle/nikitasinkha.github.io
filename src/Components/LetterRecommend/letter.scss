@@ -1,0 +1,138 @@
+.letter-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    max-width: 800px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    &:hover {
+      transform: translateY(-5px);
+    }
+  
+    .letter-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+  
+      .profile-img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+        border: 3px solid #0077b5;
+        flex-shrink: 0;
+      }
+  
+      .recommender-info {
+        h2 {
+          margin: 0;
+          font-size: 1.5rem;
+          color: #333;
+        }
+  
+        p {
+          margin: 4px 0;
+          color: #666;
+          font-size: 1.3rem;
+        }
+  
+        a {
+          text-decoration: none;
+          color: #0077b5;
+          font-weight: 500;
+          font-size: 1.2rem;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  
+    .letter-body {
+      font-size: 1.3rem;
+      line-height: 1.7;
+      color: #444;
+      white-space: pre-line;
+    }
+  
+    // Tablet
+    @media (max-width: 768px) {
+      padding: 20px;
+  
+      .letter-header {
+        .recommender-info {
+          h2 {
+            font-size: 1.3rem;
+          }
+  
+          p {
+            font-size: 1.1rem;
+          }
+        }
+      }
+  
+      .letter-body {
+        font-size: 1.2rem;
+      }
+    }
+  
+    // Mobile
+    @media (max-width: 480px) {
+      padding: 16px;
+  
+      .letter-header {
+        flex-direction: column;
+        align-items: flex-start;
+  
+        .profile-img {
+          margin-right: 0;
+          margin-bottom: 12px;
+        }
+  
+        .recommender-info {
+          h2 {
+            font-size: 1.2rem;
+          }
+  
+          p,
+          a {
+            font-size: 1rem;
+          }
+        }
+      }
+  
+      .letter-body {
+        font-size: 1.1rem;
+      }
+    }
+  }
+  
+  // Dark Mode Styling
+  .App.dark {
+    .letter-card {
+      background: #262626;
+  
+      .recommender-info {
+        h2 {
+          color: #e0e0e0;
+        }
+  
+        p {
+          color: #bbb;
+        }
+  
+        a {
+          color: #66b2ff;
+        }
+      }
+  
+      .letter-body {
+        color: #fff;
+      }
+    }
+  }
+  

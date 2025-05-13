@@ -1,0 +1,126 @@
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    animation: fadeIn 0.25s ease-in-out;
+  }
+  
+  .modal-container {
+    background: #f9f9f9;
+    border-radius: 20px;
+    padding: 30px;
+    width: 90%;
+    max-width: 480px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+    font-family: 'Segoe UI', sans-serif;
+    animation: slideUp 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+  
+      h2 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #222;
+      }
+  
+      .modal-close {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        color: #444;
+  
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+  
+    .modal-body {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+  
+      .contact-item {
+        display: flex;
+        flex-direction: column;
+  
+        label {
+          font-weight: 600;
+          font-size: 1.6rem;
+          margin-bottom: 4px;
+          color: #444;
+        }
+  
+        a {
+          font-size: 1.5rem;
+          color: #0077b5;
+          text-decoration: none;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  
+    &::after {
+        content: '';
+        position: absolute;
+        top: 60%;
+        left: 70%;
+        width: 360px;
+        height: 360px;
+        background: linear-gradient(135deg, #6ea8d6, #c58dd8, #ded1f3);
+        background-size: 600% 600%;
+        animation: gradientLoop 10s ease infinite;
+        border-radius: 50%;
+        filter: blur(90px);
+        opacity: 0.85;
+        z-index: 0;
+        pointer-events: none;
+        transform: translate(-50%, -50%);
+      }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0.65);
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(40px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes gradientLoop {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
