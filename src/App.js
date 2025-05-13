@@ -96,7 +96,7 @@ function App() {
             <Projects/>
           </div>
         </div>
-        <div className='LettersOfRecommendation'>
+        <div style={{marginBottom:'20px'}} className='LettersOfRecommendation'>
         <div style={{marginTop:'20px'}} className='SectionTitle'>
             <h1 id='SectionText'>Recommendations</h1>
             <div id='Underline'></div>
