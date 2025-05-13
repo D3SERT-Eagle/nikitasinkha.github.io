@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/D3SERT-Eagle/nikitasinkha.github.io.git/static/css/main.8f4c67a3.css",
-    "main.js": "/D3SERT-Eagle/nikitasinkha.github.io.git/static/js/main.b04f1292.js",
-    "static/js/453.1407b060.chunk.js": "/D3SERT-Eagle/nikitasinkha.github.io.git/static/js/453.1407b060.chunk.js",
-    "static/media/chetan.jpeg": "/D3SERT-Eagle/nikitasinkha.github.io.git/static/media/chetan.3598f634fd6352b4e47a.jpeg",
-    "index.html": "/D3SERT-Eagle/nikitasinkha.github.io.git/index.html",
-    "main.8f4c67a3.css.map": "/D3SERT-Eagle/nikitasinkha.github.io.git/static/css/main.8f4c67a3.css.map",
-    "main.b04f1292.js.map": "/D3SERT-Eagle/nikitasinkha.github.io.git/static/js/main.b04f1292.js.map",
-    "453.1407b060.chunk.js.map": "/D3SERT-Eagle/nikitasinkha.github.io.git/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/static/css/main.8f4c67a3.css",
+    "main.js": "/static/js/main.363d0a8a.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/chetan.jpeg": "/static/media/chetan.3598f634fd6352b4e47a.jpeg",
+    "index.html": "/index.html",
+    "main.8f4c67a3.css.map": "/static/css/main.8f4c67a3.css.map",
+    "main.363d0a8a.js.map": "/static/js/main.363d0a8a.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f4c67a3.css",
-    "static/js/main.b04f1292.js"
+    "static/js/main.363d0a8a.js"
   ]
 }
