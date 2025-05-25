@@ -19,6 +19,14 @@ function App() {
   const [click, setClick] = useState(false)
   const [position, setPosition] = useState('right')
   const [width, setWidth] = useState(0)
+  useEffect(()=>{ //Set theme according to time of day.
+    let hour = new Date().getHours();
+    if (hour < 18) {
+      setTheme('light')
+    } else {
+      setTheme('dark')
+    }
+  }, [])
   useEffect(() => {
     const handleResize = () => {
       const newWidth = window.innerWidth;
