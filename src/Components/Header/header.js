@@ -41,7 +41,7 @@ function Header ({setCurrentTheme}) {
                 <a onClick={(e)=>handleContact(e)} id="NavLink" href="#">Contact</a>
                 <DarkModeSwitch
                 style={{ marginBottom: '0' }}
-                checked={isDarkMode}
+                checked={!isDarkMode}
                 onChange={toggleDarkMode}
                 size={30}
                 />
