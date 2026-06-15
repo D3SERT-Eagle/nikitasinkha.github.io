@@ -3,7 +3,7 @@ import './projects.scss';
 
 const projectList = [
   {
-    title: 'Netrals Portal for Arbitration and Mediation With AI Grammar Checker',
+    title: 'Neutrals Portal for Arbitration and Mediation With AI Grammar Checker',
     description: 'Case management portal built for legal professionals with integrated AI-powered grammar correction optimized for legal writing. Delivered as a faster, cost-effective alternative to Grammarly using Azure AI Studio.',
     tech: ['ReactJS', 'Python', 'Azure AI Studio', 'C#', 'MySQL'],
     link: 'https://neutralsportal.namadr.com/#/'
